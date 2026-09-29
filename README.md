@@ -1,16 +1,56 @@
-# React + Vite
+# React Router & Context API
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React project focused on learning and implementing React Router and Context API concepts.
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project demonstrates different concepts of React Router and Context API through a simple React application.
 
-## React Compiler
+The project covers:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React Router DOM
+- BrowserRouter
+- Routes and Route
+- Link and NavLink
+- Navigation between pages
+- Route parameters
+- Passing parameters through navigation
+- Context API
+- Using Context for global state
+- Basic 404 / Page Not Found handling
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- JavaScript
+- React Router DOM
+- Context API
+- HTML
+- CSS
+- Vite
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+├── componets/
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Home.jsx
+│   ├── Navbar.jsx
+│   ├── PageNotFound.jsx
+│   ├── navbar.css
+│   └── route.jsx
+│
+├── contexts/
+│   └── UserContex.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+
+public/
+├── favicon.svg
+└── icons.svg
